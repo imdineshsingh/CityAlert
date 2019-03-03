@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android1:title="setting"
+        android1:orderInCategory="10"
+        app:showAsAction="never"
+        android1:id="@+id/setting"
+        />
+
+    <item android:title="log out"
+        android:orderInCategory="11"
+        app:showAsAction="never"
+        android:id="@+id/logout"
+        />
+    <item
+        android:title="About"
+        android:orderInCategory="13"
+        app:showAsAction="never"
+        android:id="@+id/about"
+        />
+    <item
+        android:title="Exit"
+        android:orderInCategory="15"
+        app:showAsAction="never"
+        android:id="@+id/exit"
+        />
+</menu>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ghughutibasuti.cityalert.MainActivity"
+    android:background="@color/background"
+    android:id="@+id/login_layout"
+    >
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="28sp"
+        android:textColor="@color/iconColor"
+
+
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="56dp"
+        />
+    
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_below="@id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Email"
+        android:drawableLeft="@drawable/ic_email"
+
+        android:background="@color/btnBackground"
+
+        android:layout_marginTop="45dp"
+
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+
+        android:inputType="textEmailAddress"
+
+        />
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_below="@id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Password"
+        android:drawableLeft="@drawable/ic_lock"
+
+        android:layout_marginTop="14dp"
+        android:background="@color/btnBackground"
+
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_below="@id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="18sp"
+
+        android:background="@color/btnBackground"
+        android:textColor="@color/iconColor"
+
+        android:layout_marginTop="18dp"
+
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_below="@id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:textSize="18sp"
+
+        android:background="@color/btnBackground"
+        android:textColor="@color/iconColor"
+
+        android:layout_marginTop="14dp"
+
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        />
+
+    <Button
+        android:id="@+id/btnForgotPassword"
+        android:layout_below="@id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="@string/forgotPassword"
+        android:textSize="12sp"
+        android:background="@color/background"
+        android:textColor="@color/red"
+
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+
+        android:layout_marginTop="7dp"
+        />
+
+
+
+   <!-- <fragment
+        android:name="com.ghughutibasuti.cityalert.Register"
+        android:id="@+id/myFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+-->
+</RelativeLayout>

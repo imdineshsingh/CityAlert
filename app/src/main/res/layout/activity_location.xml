@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ghughutibasuti.cityalert.MyLocation"
+
+    android:gravity="center"
+    >
+
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude"
+
+
+        />
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="latitude"
+        android:layout_below="@id/longitude"
+        />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/latitude"
+        android:hint="Location"
+        />
+
+
+<Button
+    android:id="@+id/getLocation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="GetLocation"
+    android:layout_alignRight="@id/location"
+    />
+
+<Spinner
+    android:id="@+id/spin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/getLocation"
+
+
+    />
+</RelativeLayout>

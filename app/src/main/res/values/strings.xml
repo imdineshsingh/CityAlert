@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CityAlert</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="forgotPassword">Forgot ID or Password ?</string>
+    <string name="register">REGISTER</string>
+    <string name="login">LOGIN</string>
+    <string name="title">Welcome To CityAlert</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+
+
+    <string name="select">Select</string>
+
+    <string-array name="choose">
+
+        <item>crime</item>>
+        <item> Other</item>>
+
+
+
+    </string-array>
+</resources>

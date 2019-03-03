@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<EditText
+    android:id="@+id/msg"
+    android:layout_width="250dp"
+    android:layout_height="150dp"
+    android:text=""
+
+    android:hint="Your message should be typed here..."
+    android:background="@drawable/rounded_edittext"
+    android:layout_marginLeft="50dp"
+    android:layout_marginStart="50dp"
+
+    />
+
+    <EditText
+        android:id="@+id/cont1"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:hint="contact 1"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_phone"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+
+
+        android:background="@drawable/rounded_edittext"
+        />
+
+    <EditText
+        android:id="@+id/cont2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text=""
+
+        android:hint="contact 2"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_phone"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+
+        android:background="@drawable/rounded_edittext"
+        />
+
+    <EditText
+        android:id="@+id/cont3"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="contact 3"
+        android:text=""
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_phone"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+    />
+    <EditText
+        android:id="@+id/cont4"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="contact 4"
+        android:text=""
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_phone"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnSaveDetail"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE DETAIL"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="19dp"
+
+        android:layout_marginLeft="110dp"
+        android:layout_marginStart="110dp"
+        />
+
+</LinearLayout>

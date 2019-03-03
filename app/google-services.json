@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "299636441618",
+    "firebase_url": "https://cityalert-212aa.firebaseio.com",
+    "project_id": "cityalert-212aa",
+    "storage_bucket": "cityalert-212aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299636441618:android:6ebf1df110b0f379",
+        "android_client_info": {
+          "package_name": "com.ghughutibasuti.cityalert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299636441618-925i7b77hupac4cq1o9ck5mjcu1jnpa9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ghughutibasuti.cityalert",
+            "certificate_hash": "5e84cf47d58f46b65140c10aad68cbe6bdae03de"
+          }
+        },
+        {
+          "client_id": "299636441618-3lbvekpne80qhm7ghl7c83vuss21rgf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNHYHdnLk0fRtaQKfT_4thdOUliG-tWo4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299636441618-3lbvekpne80qhm7ghl7c83vuss21rgf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
